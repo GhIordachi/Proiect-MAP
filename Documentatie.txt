@@ -1,0 +1,16 @@
+Documentatia Proiectului:Problema celor 8 turnuri:
+
+Primul pas in rezolvarea acestei probleme este de a analiza
+si intelege conditia problemei.
+Din cunostinte anterioare am constatat ca problema este una
+clasica de BackTracking,ceea ce consta in generarea tuturor
+solutiilor si testarea acestora daca sunt valide sau nu.
+
+Cerinta problemei este sa se plaseze 8 turnuri pe tabla de 
+sah,fara ca acestea sa se atace reciproc.
+
+In urma analizarii conditiei am creat un cod,format din 3 
+functii:ConditiiContinuare(),ce verifica ca tura sa nu se 
+atace cu alte ture,ScrieSolutia(),ce afiseaza fiecare solutie
+buna si functia main() in care are loc desfasurarea problemei
+propriu zise.
