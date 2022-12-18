@@ -69,5 +69,5 @@ int main()
             k--; // daca nu (mai) gasim o varianta buna
         // atunci ne intoarcem la tura anterioara
     }
-    cout << "Numarul total de solutii %d" << nsol << endl;
+    cout << "Numarul total de solutii:" << nsol << endl;
 }
