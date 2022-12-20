@@ -23,3 +23,6 @@ Pentru rularea cu Docker am efectuat urmatorii pasi:
 3.Am construit o imagine custom gheorghe13/problema-turnurilor.
 4.Am instantiat imaginea si am rulat-o intr-un container.
 5.Am incarcat imaginea pe Docker Hub,pentru a putea fi utilizata si de altii.
+
+Surse:
+https://infocadsite.wordpress.com/2016/04/11/blog-post-title-2/
