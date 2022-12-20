@@ -1,4 +1,6 @@
-Documentatia Proiectului:Problema celor 8 turnuri:
+Documentatia Proiectului:
+
+Problema celor 8 turnuri:
 
 Primul pas in rezolvarea acestei probleme este de a analiza
 si intelege conditia problemei.
@@ -14,3 +16,10 @@ functii:ConditiiContinuare(),ce verifica ca tura sa nu se
 atace cu alte ture,ScrieSolutia(),ce afiseaza fiecare solutie
 buna si functia main() in care are loc desfasurarea problemei
 propriu zise.
+
+Pentru rularea cu Docker am efectuat urmatorii pasi:
+1.Am instalat Docker Desktop pe calculator si i-am setat setarile corespunzatoare.
+2.Am creat un Docker file cu informatiile despre programul nostru in c++.
+3.Am construit o imagine custom gheorghe13/problema-turnurilor.
+4.Am instantiat imaginea si am rulat-o intr-un container.
+5.Am incarcat imaginea pe Docker Hub,pentru a putea fi utilizata si de altii.
